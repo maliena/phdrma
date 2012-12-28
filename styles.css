@@ -24,15 +24,17 @@
 	  
 	#bubble_1 {
 	 position: absolute;
-	 height: 40px;
+	 height: 80px;
 	 width: 200px;
 	 border-radius: 50px;
 	 background: #fff;
-	 border: 5px solid #000;
-	 top: 60px;
-	 left: 5%;
+	 border: 4px solid #A49DA4;
+	 color: #A49DA4;
+	 top: 20px;
+	 right: 2%;
 	 box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	 font-family: 'Domine', serif;
+	 padding: 0.7em;
 	}
 
 	#bubble_2 {
@@ -46,6 +48,7 @@
 	 right: 70px;
 	 box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	 font-family: 'Domine', serif;
+	 padding: 0.3em;
 	}
         
 	#bubble_3 {
@@ -63,13 +66,14 @@
         
 	#bubble_4 {
 	 position: absolute;
-	 height: 100px;
+	 height: 80px;
 	 width: 150px;
+	 padding: 0.3em;
 	 border-radius: 50px;
 	 background: #fff;
 	 border: 5px solid #000;
 	 top: 20px;
-	 right: 2%;
+	 right: 10%;
 	 box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	 font-family: 'Domine', serif;
 	}
@@ -87,7 +91,7 @@
 
 	.spalte {
 	  display: inline-block;
-	  width: 15%;
+	  width: 20%;
 	  vertical-align: middle;
 	 }
 
@@ -97,13 +101,26 @@
 
 /* ids */ 
 	#yourname {
-           font-size: 4em;
+           font-size: 4.5em;
 	   margin: 1.5em;
+	   margin-bottom: 1.5em;
          }
+
+	#neuephrase {
+	 font-size: 2em;
+	 height: 2em;
+ 	 display: inline-block;
+	 font-family: 'Unica One', cursive;
+	 color: #000;	
+	 background-color: #FC7C03;
+	 border-radius: 1.5em;	
+	 padding: 0.2em 1em;
+	 margin-bottom: 0.7em;
+	}
 
          footer {
            font-size: 1em;
-	   margin-top: 5em;
+	   margin-top: 7em;
          }
 
 	#abspann {
