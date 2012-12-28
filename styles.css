@@ -7,11 +7,11 @@
          }
          h1 {
 	   font-family: 'Unica One', cursive;
-           font-size: 1.5em;
+           font-size: 3em;
 	   background: #cc0 url(www.asdfasdf.de) 50% 0 repeat;
 	   padding: 20pt;
 	   border-radius: 1.5em;
-	   display: block
+	   display: block;
          }
 
 	 .green {
@@ -34,7 +34,7 @@
            font-size: 4em;
          }
          footer {
-           font-size: 0.75em;
+           font-size: 1em;
          }
 
 /* klassen */  
