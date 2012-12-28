@@ -5,21 +5,77 @@
            text-align:center;
            font-family: 'Domine', serif;
          }
+
          h1 {
 	   font-family: 'Unica One', cursive;
            font-size: 3em;
-	   background: #cc0 url(www.asdfasdf.de) 50% 0 repeat;
-	   padding: 20pt;
-	   border-radius: 1.5em;
-	   display: block;
-         }
+	   width: 70%;
+	   position: relative;
+	 }
 
 	 .green {
-	  color: rgba (100, 100, 50, 0.45);	
-	   margin: 1em 2em;
+	  color: rgba (100, 100, 50, 0.45);
+	  background: #cc0 50% 0 repeat;
+	  border-radius: 1.5em;	
+	  padding: 0.2em 1em;
+	  margin: 0.5em auto;
+	  display: block;
 	 }
 	  
-         h2 {
+	#bubble_1 {
+	 position: absolute;
+	 height: 40px;
+	 width: 200px;
+	 border-radius: 50px;
+	 background: #fff;
+	 border: 5px solid #000;
+	 top: 60px;
+	 left: 5%;
+	 box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	 font-family: 'Domine', serif;
+	}
+
+	#bubble_2 {
+	 position: absolute;
+	 height: 100px;
+	 width: 100px;
+	 border-radius: 50px;
+	 background: #fff;
+	 border: 5px solid #000;
+	 top: 150px;
+	 right: 70px;
+	 box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	 font-family: 'Domine', serif;
+	}
+        
+	#bubble_3 {
+	 position: absolute;
+	 height: 80px;
+	 width: 80px;
+	 border-radius: 50px;
+	 background: #fff;
+	 border: 5px solid #000;
+	 top: 150px;
+	 right: 0.8%;
+	 box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	 font-family: 'Domine', serif;
+	}
+        
+	#bubble_4 {
+	 position: absolute;
+	 height: 100px;
+	 width: 150px;
+	 border-radius: 50px;
+	 background: #fff;
+	 border: 5px solid #000;
+	 top: 20px;
+	 right: 2%;
+	 box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	 font-family: 'Domine', serif;
+	}
+
+
+	 h2 {
            font-size: 1em;
             margin-top:0;
          }
@@ -29,17 +85,46 @@
 	   margin: 1em 2em;
 	 }
 
+	.spalte {
+	  display: inline-block;
+	  width: 15%;
+	  vertical-align: middle;
+	 }
+
+	.spalte form {
+	  display: inline;
+	}
+
 /* ids */ 
 	#yourname {
            font-size: 4em;
+	   margin: 1.5em;
          }
+
          footer {
            font-size: 1em;
+	   margin-top: 5em;
          }
+
+	#abspann {
+	display: inline-block;
+	margin: auto;
+	margin-top: 2em;
+	}
+
+	#abspann a {
+	text-decoration: none;
+	font-family: 'Unica One', cursive;
+	font-size: 1.2em;
+	color: #000;
+	font-weight: bold;
+	padding: 0.3em 0.8em;
+	font-family: 'Domine', serif;
+	}
 
 /* klassen */  
 	.class { 
-
+}
 /* div tag, das die klasse indent hat */
 	div.indent { 
 	}
