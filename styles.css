@@ -1,0 +1,59 @@
+
+         body{
+           padding:0;
+           margin:50px auto;
+           text-align:center;
+           font-family: 'Domine', serif;
+         }
+         h1 {
+	   font-family: 'Unica One', cursive;
+           font-size: 1.5em;
+	   background: #cc0 url(www.asdfasdf.de) 50% 0 repeat;
+	   padding: 20pt;
+	   border-radius: 1.5em;
+	   display: block
+         }
+
+	 .green {
+	  color: rgba (100, 100, 50, 0.45);	
+	   margin: 1em 2em;
+	 }
+	  
+         h2 {
+           font-size: 1em;
+            margin-top:0;
+         }
+
+	 h3 {
+	   font-family: 'Domine', serif;
+	   margin: 1em 2em;
+	 }
+
+/* ids */ 
+	#yourname {
+           font-size: 4em;
+         }
+         footer {
+           font-size: 0.75em;
+         }
+
+/* klassen */  
+	.class { 
+
+/* div tag, das die klasse indent hat */
+	div.indent { 
+	}
+
+/* beliebiges element mit der klasse indent innerhalb eines div elements */
+	div .indent {
+	}
+
+/* ... {
+    background: none repeat scroll 0 0 #FFFF00;
+    display: inline-block;
+    float: left;
+    height: 2em;
+    width: 2em; */
+
+
+	selektor1>selektor2
