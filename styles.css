@@ -1,170 +1,86 @@
 
-         body{
-           padding:0;
-           margin:50px auto;
-           text-align:center;
-           font-family: 'Domine', serif;
-         }
+body{
+	padding:0;
+    margin:50px auto;
+	text-align:center;
+    font-family: 'Domine', serif;
+}
 
-         h1 {
-	   font-family: 'Unica One', cursive;
-           font-size: 3em;
-	   width: 70%;
-	   position: relative;
-	 }
+h1 {
+	font-family: 'Unica One', cursive;
+    font-size: 3em;
+    width: 70%;
+	position: relative;
+}
 
-	 .green {
-	  color: rgba (100, 100, 50, 0.45);
-	  background: #00B25C repeat;
-	  border-radius: 1.5em;	
-	  padding: 0.2em 1em;
-	  margin: 0.5em auto;
-	  display: block;
-	 }
-	  
-	#bubble_1 {
-	 position: absolute;
-	 height: 80px;
-	 width: 200px;
-	 border-radius: 50px;
-	 background: #fff;
-	 border: 4px solid #A49DA4;
-	 color: #A49DA4;
-	 top: 20px;
-	 right: 2%;
-	 box-shadow: 0 0 5px rgba(0,0,0,0.5);
-	 font-family: 'Domine', serif;
-	 padding: 0.7em;
-	}
+.green {
+	color: rgba (100, 100, 50, 0.45);
+	background: #00B25C repeat;
+	border-radius: 1.5em;	
+	padding: 0.2em 1em;
+	margin: 0.5em auto;
+	display: block;
+}
 
-	#bubble_2 {
-	 position: absolute;
-	 height: 100px;
-	 width: 100px;
-	 border-radius: 50px;
-	 background: #fff;
-	 border: 5px solid #000;
-	 top: 150px;
-	 right: 70px;
-	 box-shadow: 0 0 5px rgba(0,0,0,0.5);
-	 font-family: 'Domine', serif;
-	 padding: 0.3em;
-	}
-        
-	#bubble_3 {
-	 position: absolute;
-	 height: 80px;
-	 width: 80px;
-	 border-radius: 50px;
-	 background: #fff;
-	 border: 5px solid #000;
-	 top: 150px;
-	 right: 0.8%;
-	 box-shadow: 0 0 5px rgba(0,0,0,0.5);
-	 font-family: 'Domine', serif;
-	}
-        
-	#bubble_4 {
-	 position: absolute;
-	 height: 80px;
-	 width: 150px;
-	 padding: 0.3em;
-	 border-radius: 50px;
-	 background: #fff;
-	 border: 5px solid #000;
-	 top: 20px;
-	 right: 10%;
-	 box-shadow: 0 0 5px rgba(0,0,0,0.5);
-	 font-family: 'Domine', serif;
-	}
+h3 {
+	font-family: 'Domine', serif;
+    margin: 1em 2em;
+}
 
+.spalte {
+	display: inline-block;
+	width: 20%;
+	vertical-align: middle;
+}
 
-	 h2 {
-           font-size: 1em;
-            margin-top:0;
-         }
-
-	 h3 {
-	   font-family: 'Domine', serif;
-	   margin: 1em 2em;
-	 }
-
-	.spalte {
-	  display: inline-block;
-	  width: 20%;
-	  vertical-align: middle;
-	 }
-
-	.spalte form {
-	  display: inline;
-	}
+.spalte form {
+    display: inline;
+}
 
 /* ids */ 
-	#yourname {
-           font-size: 4.5em;
-	   margin: 2em;
-         }
+#yourname {
+	font-size: 4.5em;
+    margin: 2em;
+}
 
-	#neuephrase {
-	 font-size: 2.5em;
-	 font-family: 'Unica One', cursive;
-	 color: #000;	
-	 background-color: #FC7C03;
-	 border-radius: 1.5em;	
-	 padding: 0.2em 0.5em;
-	 display: block;
-	 position: relative;
-	 text-decoration: none;
-	}
+#neuephrase {
+	font-size: 2.5em;
+	font-family: 'Unica One', cursive;
+    color: #000;	
+	background-color: #FC7C03;
+	border-radius: 1.5em;	
+	padding: 0.2em 0.5em;
+	display: block;
+	position: relative;
+	text-decoration: none;
+}
 	
-	#neuephrase:hover {
-	 color:#ffffff;
-	 text-decoration:none;
-	 background-color:#04819E;
-	} 
+#neuephrase:hover {
+	color:#ffffff;
+	text-decoration:none;
+	background-color:#04819E;
+} 
 	
+footer {
+	font-size: 1em;
+    margin-top: 3em;
+}
 
-         footer {
-           font-size: 1em;
-	   margin-top: 3em;
-         }
-
-	#abspann {
+#abspann {
 	display: inline-block;
 	margin: auto;
 	margin-top: 2em;
-	}
+}
 
-	#abspann a {
+#abspann a {
 	font-family: 'Unica One', cursive;
 	text-decoration: none;
 	font-size: 1.2em;
 	color: #000;
 	font-weight: bold;
 	padding: 0.3em 0.8em;
-	}
-
-	#abspann a:hover {
-	text-decoration: underline;
-	}
-
-/* klassen */  
-	.class { 
 }
-/* div tag, das die klasse indent hat */
-	div.indent { 
-	}
 
-/* beliebiges element mit der klasse indent innerhalb eines div elements */
-	div .indent {
-	}
-
-/* ... {
-    background: none repeat scroll 0 0 #FFFF00;
-    display: inline-block;
-    float: left;
-    height: 2em;
-    width: 2em; */
-
-
-	selektor1>selektor2
+#abspann a:hover {
+	text-decoration: underline;
+}
